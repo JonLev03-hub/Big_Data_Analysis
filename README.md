@@ -8,29 +8,29 @@ The results from my first attempt of this analysis I had gathered the data from 
 
 With the first set of reviews I analized I had noticed there were plenty of Non-Vine reviews to account for a moderately acurate study but there were not nearly enough vine reviews for it to be reliable. This is still the code left in the repository with the results displayed below.
 
-**----------------------------------------------------------
-4 for Vine Reviews
-1004 for non-Vine Reviews
-----------------------------------------------------------
-Vine Reviews had 1 five star review
-Non Vine Reviews had 495 fine star review
-----------------------------------------------------------
-25.0 percent of Vine reviews were 5 star
-49.30278884462152 percent of Non Vine reviews were 5 star
-----------------------------------------------------------**
+**---------------------------------------------------------- <br>
+4 for Vine Reviews <br>
+1004 for non-Vine Reviews <br>
+---------------------------------------------------------- <br>
+Vine Reviews had 1 five star review <br>
+Non Vine Reviews had 495 fine star review <br>
+---------------------------------------------------------- <br>
+25.0 percent of Vine reviews were 5 star <br>
+49.30278884462152 percent of Non Vine reviews were 5 star <br>
+----------------------------------------------------------** <br>
 
 To get more accurate and useable analysis I went forward with reviewing another dataset. Since vine has all of its datasets formatted the same I was able to simply replace the URL at the Load Amazon Data Into Spark section. In doing this I ran all the cells once again and got much more useable results to provide a better basis for theories. 
 
-**----------------------------------------------------------
-272 for Vine Reviews
-30456 for non-Vine Reviews
-----------------------------------------------------------
-Vine Reviews had 150 five star review
-Non Vine Reviews had 14163 five star review
-----------------------------------------------------------
-55.14705882352941 percent of Vine reviews were 5 star
-46.50315208825847 percent of Non Vine reviews were 5 star
-----------------------------------------------------------**
+**---------------------------------------------------------- <br>
+272 for Vine Reviews <br>
+30456 for non-Vine Reviews <br>
+---------------------------------------------------------- <br>
+Vine Reviews had 150 five star review <br>
+Non Vine Reviews had 14163 five star review <br>
+---------------------------------------------------------- <br>
+55.14705882352941 percent of Vine reviews were 5 star <br>
+46.50315208825847 percent of Non Vine reviews were 5 star <br>
+----------------------------------------------------------** <br>
 
 As you see its very important to have a larger sample size for this sort of study because the results from these two products was so drastically different. 
 
@@ -42,16 +42,16 @@ For the results I had three main goals
 - Get the total number of five star reviews from each source
 - Get the percent of five star reviews fro each source.
 
-**----------------------------------------------------------
-272 for Vine Reviews
-30456 for non-Vine Reviews
-----------------------------------------------------------
-Vine Reviews had 150 five star review
-Non Vine Reviews had 14163 five star review
-----------------------------------------------------------
-55.14705882352941 percent of Vine reviews were 5 star
-46.50315208825847 percent of Non Vine reviews were 5 star
-----------------------------------------------------------**
+**---------------------------------------------------------- <br>
+272 for Vine Reviews <br>
+30456 for non-Vine Reviews <br>
+---------------------------------------------------------- <br>
+Vine Reviews had 150 five star review <br>
+Non Vine Reviews had 14163 five star review <br>
+---------------------------------------------------------- <br>
+55.14705882352941 percent of Vine reviews were 5 star <br>
+46.50315208825847 percent of Non Vine reviews were 5 star <br>
+----------------------------------------------------------** <br>
 
 The second set of data shown above has a good amount of reviews from each source so it should be good to draw conclusions and one thing to notice is that vine has a much higher probability of getting a 5 star review beating non vine reviews b 9%.
 
